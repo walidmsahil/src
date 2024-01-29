@@ -1,3 +1,7 @@
+<?php 
+$title = 'Task 1';
+include 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,10 @@
     <title>Exercise 1: Getting Started with PHP - Walid Mazumder</title>
 </head>
 <body>
+
+<div class="body-container">
+<div class="home-banner-container">
+            <img src="images/bannerpaw.png" alt="banner" draggable="false">
     <h3>3.1 Write PHP code to output the following message:
         Hello World! My name is "Walid"
     <h3>
@@ -65,12 +73,25 @@
     <h3>Take a screenshot that confirms your development environment
         setup and include it as an image in the "ex1.php" file.
     </h3>
-    <img src="images/docker-ss.png" alt="web development environment">
-
+    <div class = "ss">
+        <img src="images/docker-ss.png" alt="web development environment">
+    </div>
     <h3>Commit all the changes you've made and push them 
         to your GitHub repository to complete the task.
     </h3>
+
+    <style>
+        .ss img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            display: block;
+        }
+    </style>
+</div>
     
 </body>
 </html>
 
+<?php include 'footer.php'; ?>
