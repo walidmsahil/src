@@ -23,12 +23,12 @@
                     <li><a href="home.php">HOME</a></li>
                     <li><a href="Task-1.php">TASK 1</a></li>
                     <li><a href="home.php">TASK 2</a></li>
-                    <li><a href="exercise-3.php">TASK 3</a></li>
+                    <li><a href="Task-3.php">TASK 3</a></li>
                     <li><a href="exercise-4.php">TASK 4</a></li>
                     <li><a href="exercise-5.php">TASK 5</a></li>
                     <li><a href="exercise-6.php">TASK 6</a></li>
                     <li><a href="exercise-7.php">TASK 7</a></li>
                 </ul>
             </nav>
-        </div>
+        </div>  
     </header>

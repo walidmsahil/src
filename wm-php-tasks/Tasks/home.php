@@ -5,8 +5,10 @@ include 'header.php'; ?>
 <!-- Home body container -->
     <div class="body-container">
         <div class="home-banner-container">
-            <img src="images/bannerpaw.png" alt="banner" draggable="false">
-            <h1> Here are my PHP tasks</h1>
+            <img src="images/hamk-banner.avif" alt="banner" draggable="false">
+            <div class="article">    
+                <h1> Here are my PHP tasks</h1>
+            </div>
         </div>
     </div>
 

@@ -2,18 +2,11 @@
 $title = 'Task 1';
 include 'header.php'; ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1: Getting Started with PHP - Walid Mazumder</title>
-</head>
 <body>
-
-<div class="body-container">
+<div class="body container">
 <div class="home-banner-container">
-            <img src="images/bannerpaw.png" alt="banner" draggable="false">
+        <img src="images/hamk-banner.avif" alt="banner" draggable="false">
+<div class="article">
     <h3>3.1 Write PHP code to output the following message:
         Hello World! My name is "Walid"
     <h3>
@@ -90,7 +83,7 @@ include 'header.php'; ?>
         }
     </style>
 </div>
-    
+</div>
 </body>
 </html>
 
