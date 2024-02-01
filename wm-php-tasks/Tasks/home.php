@@ -1,7 +1,7 @@
 <?php
 $title = "Home";
 include 'header.php'; ?>
-
+<html lang="en">
 <!-- Home body container -->
 <div class="body-container">
     <div class="home-banner-container">
@@ -11,5 +11,5 @@ include 'header.php'; ?>
         </div>
     </div>
 </div>
-
+</html>
 <?php include 'footer.php'; ?>

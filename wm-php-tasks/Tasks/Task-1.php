@@ -1,7 +1,7 @@
 <?php
 $title = 'Task 1';
 include 'header.php'; ?>
-
+<html lang="en">
 <body>
     <div class="body container">
         <div class="home-banner-container">

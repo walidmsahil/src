@@ -1,6 +1,7 @@
 <?php
 $title = 'Task 3';
 include 'header.php'; ?>
+<html lang="en">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -15,7 +16,6 @@ include 'header.php'; ?>
         <div class="article">
             <div class="form-container">
                 <form action="process.php" method="POST">
-
                     First Name: <input type="fname" name="fnimi" required> <br><br>
                     Last Name: <input type="lname" name="lnimi" required> <br><br>
                     <button>Submit</button>
@@ -68,12 +68,11 @@ include 'header.php'; ?>
 
             echo "<br><br>";
 
-            $user_agent = $_SERVER['HTTP_USER_AGENT'];
-            echo "Your browser: " . $user_agent;
+            $browser = $_SERVER['SERVER_NAME'];
+            echo "Your browser: " . $browser;
             ?>
         </div>
     </div>
 </body>
-
-
+</html>
 <?php include 'footer.php'; ?>
