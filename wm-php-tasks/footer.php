@@ -1,5 +1,4 @@
 <!-- Footer -->
-<html lang="en">
 <footer class="footer-container">
     <section class="col-1">
         <p>QUICK LINKS</p>

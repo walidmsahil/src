@@ -1,9 +1,7 @@
 <?php
 $title = 'Task 4';
 include 'header.php'; ?>
-<html lang="en">
 
-<body>
     <div class="body container">
         <div class="home-banner-container">
             <img src="images/hamk-banner.avif" alt="banner" draggable="false">
@@ -83,8 +81,5 @@ include 'header.php'; ?>
                 </div>
             </div>
         </div>
-</body>
-
-</html>
 
 <?php include 'footer.php'; ?>

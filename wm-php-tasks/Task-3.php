@@ -1,18 +1,12 @@
 <?php
 $title = 'Task 3';
 include 'header.php'; ?>
-<html lang="en">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-    <div class="body-container">
-        <div class="home-banner-container">
-            <img src="images/hamk-banner.avif" alt="banner" draggable="false">
-        </div>
+<div class="body-container">
+    <div class="home-banner-container">
+        <img src="images/hamk-banner.avif" alt="banner" draggable="false">
         <div class="article">
             <div class="form-container">
                 <form action="process.php" method="POST">
@@ -20,7 +14,6 @@ include 'header.php'; ?>
                     Last Name: <input type="lname" name="lnimi" required> <br><br>
                     <button>Submit</button>
                 </form>
-            </div>
             <table class="table">
                 <thead>
                     <tr>
@@ -72,7 +65,8 @@ include 'header.php'; ?>
             echo "Your browser: " . $browser;
             ?>
         </div>
+        </div>
     </div>
-</body>
-</html>
+</div>
 <?php include 'footer.php'; ?>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
